@@ -1,4 +1,4 @@
-filepath1 = "todos.txt"
+filepath1 = "todo.txt"
 def getTodos(filepath=filepath1):
     with open(filepath, 'r') as file:
         todos = file.readlines()
